@@ -1,5 +1,6 @@
 var akan=function(dob,gender) {
 var akanFemaleNames=["Akosua","Adwoa","Abenua","Akua","Yao","Afua","ama"];
+  var akanMaleNames=["Kwasi","Kwadwo","Kwabena","Kwahu","Yaw","kofi","Kwame"];
 
 
 
