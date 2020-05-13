@@ -1,3 +1,9 @@
+var akan=function(dob,gender) {
+var akanFemaleNames=["Akosua","Adwoa","Abenua","Akua","Yao","Afua","ama"];
+
+
+
+
 $(document).ready(function() {
     $("#blanks form").submit(function(event) {
         var person1Input=$("input#person1").val();
@@ -9,5 +15,13 @@ $(document).ready(function() {
         $("#description").show();
 
         event.preventDefault();
+        var gender = $("input:radio[name=flavor]:checked").val()
+        var dob = $("#born").val();
+
+
+
+
+
+        $("output").text(result);
       });
     });
