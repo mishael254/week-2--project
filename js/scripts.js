@@ -1,6 +1,14 @@
 var akan=function(dob,gender) {
 var akanFemaleNames=["Akosua","Adwoa","Abenua","Akua","Yao","Afua","ama"];
   var akanMaleNames=["Kwasi","Kwadwo","Kwabena","Kwahu","Yaw","kofi","Kwame"];
+  var day=new Date(dob);
+if(gender==="female") {
+return day&&akanFemaleNames[day.getDay()]
+}else {
+return day&&akanMaleNames[day.getDay()];
+}
+}
+
 
 
 
